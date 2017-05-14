@@ -1,0 +1,13 @@
+{application, social_net,
+  [
+    {description, "test social net"},
+    {vsn, "0.0.1"},
+    {registered, []},
+    {modules, []},
+    {applications, [
+      kernel,
+      stdlib
+    ]},
+    {mod, {sn_test_app, []}},
+    {env, []}
+  ]}.
